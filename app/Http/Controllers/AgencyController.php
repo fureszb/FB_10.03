@@ -62,4 +62,8 @@ class AgencyController extends Controller
         return view("agency.delete", ["agencies" => $agency]);
     
     }
+    public function newView(){
+        return view("agency.new");
+    
+    }
 }

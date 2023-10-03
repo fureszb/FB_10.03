@@ -30,3 +30,5 @@ Route::delete("/api/agency/{id}", [AgencyController::class, "delete"]);
 Route::get("/agency/delete", [AgencyController::class, "deleteView"]);
 
 Route::get('/agency/list', [AgencyController::class, 'listView']);
+
+Route::get('/agency/list', [AgencyController::class, 'newView']);
